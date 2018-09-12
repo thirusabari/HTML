@@ -1,0 +1,29 @@
+h1 {
+    color:greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+}
+body{
+    background-color:whitesmoke;
+}
+p{
+    color:gray;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 340%;
+    border:1px solid goldenrod;
+    padding: 40px;
+    margin:70px;
+}
+#single {
+    color:rebeccapurple;
+    border:none;
+    padding: none;
+    margin:none;
+}
+.cl{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    border:none;
+    
+}

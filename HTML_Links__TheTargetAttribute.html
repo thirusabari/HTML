@@ -1,0 +1,43 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>The Target Attribute</title>
+    </head>
+    <body>
+        <h1>Target Attribute in the HTML Links</h1>
+        <p>The <quote><b>Target</b></quote> attribute specifies where to open the linked document. The Target Attribute having the following values</p>
+        <pre>
+            <ul><li>
+                _blank ---> Opens the Linked document in the new window or tab.
+            </li>
+            <li>
+                _self ---> Opens the Linked document in the same window/tab as it was clicked (this is default)
+            </li>
+            <li>
+                _parent ---> Opens the Linked document in the parent Frame.
+            </li>
+            <li>
+                _top ---> Opens the Linked document in the full body of the window.
+            </li>
+            <li>
+                Opens the Linked document in the named frame.
+            </li>
+        </ul>
+        </pre>
+        <a href="http:\\www.google.co.in" target="_blank">Opens the Google in _blank target</a><br><hr>
+        <a href="http:\\www.facebook.com\Creator1993" target="_self"> Opens the <quote><b> Something Different </b></quote> Facebook page in the _self target</a>
+        <br>
+        <hr>
+        <a href="http:\\www.google.com" target="_parent"> Opens the Google in the _parent Frame (target)</a>
+        <br>
+        <hr>
+        <a href="http:\\www.google.com" target="_top">Opens the Google in the _top target</a>
+        <br>
+        <hr>
+        <a href="http:\\www.google.com" target="fr">Opens the Google in the named frame (as target)</a>
+        <br>
+        <hr>
+        <iframe name="fr">
+        </iframe>
+    </body>
+</html>
